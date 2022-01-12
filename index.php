@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Naturreservatet<h1>
+    <h1> Naturreservatet</h1>
 
     <form action= "./results.php" method = "POST">
     <input placeholder= "apa" type="text" name="apa">
