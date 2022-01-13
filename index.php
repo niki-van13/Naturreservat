@@ -13,6 +13,9 @@
     <input placeholder= "apa" type="text" name="apa">
     <input placeholder= "giraff" type="text" name="giraff">
     <input placeholder= "tigrar" type="text" name="tigrar">
+     <input placeholder= "kokosnötter" type="text" name="kokosnötter">
+        
+        
   
 <button type="submit">Save</button>
 
