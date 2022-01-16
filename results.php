@@ -1,11 +1,22 @@
   
 <?php
-
 abstract class Animal {
-public $name;
+    public $name;
+    public $picture;
 
-abstract function makeSound() ;
+    abstract function makeSound();
 
+    public function Clicca() {
+        $text = 'alert("Name: ';
+        $text .= $this->name;
+        $text .= " Sound: ";
+        $text .= $this->makeSound();
+        $text .= '");';
+        return $text;
+    }
+
+   
+    }
 }
 
 class Apa extends Animal {
