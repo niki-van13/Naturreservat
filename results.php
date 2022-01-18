@@ -23,6 +23,7 @@ class Apa extends Animal {
 
     function __construct ($name) {
         $this -> name = $name;
+      $this -> picture = $picture;
 
     }
 
@@ -35,6 +36,7 @@ class Giraff extends Animal {
 
     function __construct ($name) {
         $this -> name = $name;
+         $this -> picture = $picture;
 
     }
 
@@ -60,6 +62,7 @@ class koko extends Animal {
 
     function __construct ($name) {
         $this -> name = $name;
+         $this -> picture = $picture;
 
     }
 
