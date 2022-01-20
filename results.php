@@ -19,17 +19,27 @@ abstract class Animal {
     }
 }
 
-class Apa extends Animal {
+abstract protected function getSound();
 
-    function __construct ($name) {
-        $this -> name = $name;
-      $this -> picture = $picture;
+            public $name;
+            public $picture;
 
-    }
+            public function echoImg() {
+                echo "img style='max-width:25em;' src='".$this->imgUrl."' onclick='".$this->onClickCode()."'/><br>";
+            } 
+        }
+  
 
-    public function makeSound() {
-        echo "uauauuaua";
-    }
+        class Apa extends Animal {
+            function __construct($name, $picture) {
+      
+                $this->name = $name;
+                $this->picture = $picture;            
+            }
+            function getSound() {
+                return "OAOAHAOAHA";
+            }
+        }
 }
 
 class Giraff extends Animal {
