@@ -43,43 +43,38 @@ abstract protected function getSound();
 }
 
 class Giraff extends Animal {
+            function __construct($name, $img) {
+               
+                $this->name = $name;
+                $this->picture = $picture;            
+            }
+            function getSound() {
+                return "rrrrrr";
+            }
+        }
 
-    function __construct ($name) {
-        $this -> name = $name;
-         $this -> picture = $picture;
+        class Tiger extends Animal {
+            function __construct($name, $img) {
+               
+                $this->name = $name;
+                $this->picture = $picture;            
+            }
+            function getSound() {
+                return "AHHHARRRRAAAAH";
+            }
+        }
+        
+        class koko extends Animal {
+            function __construct($name, $img) {
+                
+                $this->name = $name;
+                $this->picture = $picture;            
+            }
+            function getSound() {
+                return "...";
+            }
+        }
 
-    }
-
-    public function makeSound() {
-        echo "iiiiuiuu";
-    }
-}
-
-
-class Tiger extends Animal {
-
-    function __construct ($name) {
-        $this -> name = $name;
-
-    }
-
-    public function makeSound() {
-        echo "Gerrrr";
-    }
-}
-
-class koko extends Animal {
-
-    function __construct ($name) {
-        $this -> name = $name;
-         $this -> picture = $picture;
-
-    }
-
-    public function makeSound() {
-        echo "...";
-    }
-}
 
 if($_SERVER["REQUEST_METHOD"]) {
 
