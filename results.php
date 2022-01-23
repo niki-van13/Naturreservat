@@ -74,7 +74,13 @@ class Giraff extends Animal {
                 return "...";
             }
         }
-
+function pictureCount($pictureCount) {
+            if($pictureCount == 2) {
+                return 0;
+            } else {
+                return $imgCount + 1;
+            }
+        }
 
 if($_SERVER["REQUEST_METHOD"]) {
 
