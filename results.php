@@ -82,6 +82,10 @@ function pictureCount($pictureCount) {
             }
         }
 
+$AnimalArray = array();
+                $pictureCount = 0;
+
+
 if($_SERVER["REQUEST_METHOD"]) {
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
