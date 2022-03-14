@@ -49,7 +49,7 @@ class Giraff extends Animal {
                 $this->picture = $picture;            
             }
             function getSound() {
-                return "rrrrrr";
+                return "rrr";
             }
         }
 
@@ -60,7 +60,7 @@ class Giraff extends Animal {
                 $this->picture = $picture;            
             }
             function getSound() {
-                return "AHHHARRRRAAAAH";
+                return "AHHAAAH";
             }
         }
         
@@ -71,7 +71,7 @@ class Giraff extends Animal {
                 $this->picture = $picture;            
             }
             function getSound() {
-                return "...";
+                return "......";
             }
         }
 function pictureCount($pictureCount) {
