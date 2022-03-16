@@ -60,7 +60,7 @@ class Giraff extends Animal {
                 $this->picture = $picture;            
             }
             function getSound() {
-                return "AHHAAAH";
+                return "AAAH";
             }
         }
         
